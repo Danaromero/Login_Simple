@@ -81,9 +81,27 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 Image.asset('assets/app.gif'),
                 SizedBox(height: 16.0),
               ],
-            ),
+            ),//Fin de Columna
+            if (!acceso){
+            Column(
+              children: <Widget>[
+              TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      // fillColor: Colors.amber,
+                      labelText: 'Ingresa Nombre Usuario',
+                    ),
+                  ),//Fin Text Field
+                
+              ]//Fin Widget[]
 
-            
+
+            )//Fin Columna
+            }//If Verdadero
+            else{
+
+            }//If Flaso
+          
           ],//Fin Widgets
         ),//Fin ListView
       ),//Fin de Body Area segura
