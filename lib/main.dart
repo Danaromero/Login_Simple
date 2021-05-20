@@ -91,6 +91,14 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Ingresa Nombre Usuario',
                     ),
                   ), //Fin Text Field
+                  SizedBox(height: 12.0),
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      labelText: 'Ingresa tu Contraseña',
+                    ),
+                    obscureText: true,
+                  ),
                 ], //Fin Widget[]
               ), //Fin Columna
               
@@ -101,4 +109,4 @@ class _IngresoSistemaState extends State<IngresoSistema> {
       ), //Fin de Body Area segura
     ); //Fin Scaffold
   } //Fin Widget
-}
+}//Fin cLASE Ingreso Sistema
