@@ -83,7 +83,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ), //Fin de Columna
             if (!acceso)
-                Column(children: <Widget>[
+              Column(
+                children: <Widget>[
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
@@ -100,8 +101,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     obscureText: true,
                   ),
 
-
-                 Padding(
+                  Padding(
                     padding: const EdgeInsets.only(top: 18.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -113,7 +113,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = false;
                             });
                           },
-                        ),//Fin FlatButton
+                        ), //Fin FlatButton
                         RaisedButton(
                           child: Text(
                             'Siguiente',
@@ -123,20 +123,34 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                               acceso = true;
                             });
                           },
-                        ),//Fin Raised Button
-                        
-                      ],//Fin niños Widget
-                    ),//Fin de Niño Row
-                  )//Fin De Padding
-
+                        ), //Fin Raised Button
+                      ], //Fin niños Widget
+                    ), //Fin de Niño Row
+                  ) //Fin De Padding
                 ], //Fin Widget[]
               ), //Fin Columna
-              
-           
-             
+              else 
+               Center(
+                child: Column(
+                  children: <Widget>[
+                    Text('Estas Conectado!'),
+                    RaisedButton(
+                      elevation: 20.0,
+                      child: Text('Cerrar Sesión'),
+                      onPressed: () {
+                        setState(() {
+                          acceso = false;
+                        });
+                      },
+                    )//Fin Boton Sobresaliente
+                  ],//Fin Niños Widget
+                ),
+              )//If Falso
+
+
           ], //Fin Widgets
         ), //Fin ListView
       ), //Fin de Body Area segura
     ); //Fin Scaffold
   } //Fin Widget
-}//Fin cLASE Ingreso Sistema
+} //Fin cLASE Ingreso Sistema
