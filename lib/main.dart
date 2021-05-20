@@ -112,6 +112,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       children: <Widget>[
                         FlatButton(
                           child: Text('Cancelar'),
+                          color: Colors.blue[200],
                           onPressed: () {
                             setState(() {
                               acceso = false;
