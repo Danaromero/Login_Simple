@@ -123,6 +123,10 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                             'Siguiente',
                           ),
                            color: Colors.blue[200],
+                           splashColor: Colors.cyan,
+                          animationDuration: Duration(seconds: 20),
+                           padding: EdgeInsets.all(20.0),
+                  colorBrightness: Brightness.light,
                           onPressed: () {
                             setState(() {
                               acceso = true;
