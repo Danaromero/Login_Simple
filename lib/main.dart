@@ -90,8 +90,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       filled: true,
                       // fillColor: Colors.amber,
                       labelText: 'Ingresa Nombre Usuario',
-                      icon: Icon(Icons.edit_rounded, color: Colors.pink),
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)
+                      
                     ),
                   ), //Fin Text Field
                   SizedBox(height: 12.0),
