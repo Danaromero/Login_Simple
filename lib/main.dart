@@ -92,7 +92,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Ingresa Nombre Usuario',
                     ),
                   ), //Fin Text Field
-                ] //Fin Widget[]
+                ], //Fin Widget[]
 
                     ) //Fin Columna
               
