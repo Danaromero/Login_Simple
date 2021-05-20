@@ -122,6 +122,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           child: Text(
                             'Siguiente',
                           ),
+                           color: Colors.blue[200],
                           onPressed: () {
                             setState(() {
                               acceso = true;
