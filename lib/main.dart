@@ -90,7 +90,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       filled: true,
                       // fillColor: Colors.amber,
                       labelText: 'Ingresa Nombre Usuario',
-                      
+                      icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                   ), //Fin Text Field
                   SizedBox(height: 12.0),
@@ -130,8 +131,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   ) //Fin De Padding
                 ], //Fin Widget[]
               ) //Fin Columna
-              else 
-               Center(
+            else
+              Center(
                 child: Column(
                   children: <Widget>[
                     Text('Estas Conectado!'),
@@ -143,12 +144,10 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           acceso = false;
                         });
                       },
-                    )//Fin Boton Sobresaliente
-                  ],//Fin Niños Widget
+                    ) //Fin Boton Sobresaliente
+                  ], //Fin Niños Widget
                 ),
-              )//If Falso
-
-
+              ) //If Falso
           ], //Fin Widgets
         ), //Fin ListView
       ), //Fin de Body Area segura
