@@ -149,7 +149,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 child: Column(
                   children: <Widget>[
                     Text(
-                      "Estas Conectado",
+                      "Ya Estas Conectado!",
                       style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
                     ),
                     new Padding(
