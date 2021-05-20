@@ -94,9 +94,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                   ), //Fin Text Field
-                  new Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10.0),
-            ),
+                 
                   SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
@@ -123,6 +121,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                             });
                           },
                         ), //Fin FlatButton
+                         new Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+            ),
                         RaisedButton(
                           child: Text(
                             'Siguiente',
