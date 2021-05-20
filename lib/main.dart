@@ -49,11 +49,11 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             print('Menu button');
           },
         ),
-         title: Text('Ingreso al Sistema Romero'),
+        title: Text('Ingreso al Sistema Romero'),
         actions: <Widget>[
           IconButton(
             icon: Icon(
-              Icons.bluetooth ,
+              Icons.bluetooth,
               semanticLabel: 'search',
             ),
             onPressed: () {
@@ -69,7 +69,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               print('Filter button');
             },
           ),
-        ],//Fin de Action Widget
+        ], //Fin de Action Widget
       ), //Fin Appbar
       body: SafeArea(
         child: ListView(
@@ -81,30 +81,26 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 Image.asset('assets/app.gif'),
                 SizedBox(height: 16.0),
               ],
-            ),//Fin de Columna
-            if (!acceso){
-            Column(
-              children: <Widget>[
-              TextField(
+            ), //Fin de Columna
+            if (!acceso)
+              
+                Column(children: <Widget>[
+                  TextField(
                     decoration: InputDecoration(
                       filled: true,
                       // fillColor: Colors.amber,
                       labelText: 'Ingresa Nombre Usuario',
                     ),
-                  ),//Fin Text Field
-                
-              ]//Fin Widget[]
+                  ), //Fin Text Field
+                ] //Fin Widget[]
 
-
-            )//Fin Columna
-            }//If Verdadero
-            else{
-
-            }//If Flaso
-          
-          ],//Fin Widgets
-        ),//Fin ListView
-      ),//Fin de Body Area segura
+                    ) //Fin Columna
+              
+            else
+             
+          ], //Fin Widgets
+        ), //Fin ListView
+      ), //Fin de Body Area segura
     ); //Fin Scaffold
   } //Fin Widget
 }
