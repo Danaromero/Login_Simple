@@ -108,7 +108,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   Padding(
                     padding: const EdgeInsets.only(top: 18.0),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.end,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         FlatButton(
                           child: Text('Cancelar'),
