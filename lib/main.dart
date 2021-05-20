@@ -90,7 +90,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       filled: true,
                       // fillColor: Colors.amber,
                       labelText: 'Ingresa Nombre Usuario',
-                      icon: Icon(Icons.edit_rounded, color: Colors.pink),
+                      icon: Icon(Icons.edit_rounded, color: Colors.blue),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                   ), //Fin Text Field
@@ -99,7 +99,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     decoration: InputDecoration(
                       filled: true,
                       labelText: 'Ingresa tu Contraseña',
-                      icon: Icon(Icons.edit_rounded, color: Colors.blue),
+                      icon: Icon(Icons.lock, color: Colors.blue),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                     obscureText: true,
