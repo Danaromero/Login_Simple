@@ -10,7 +10,7 @@ class DanaApp extends StatelessWidget {
       title: 'AppMaster Romero',
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.indigo,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       darkTheme: ThemeData(
