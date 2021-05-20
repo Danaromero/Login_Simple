@@ -158,6 +158,11 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     RaisedButton(
                       elevation: 20.0,
                       child: Text('Cerrar Sesión'),
+                      color: Colors.greenAccent[200],
+                          splashColor: Colors.cyan,
+                          animationDuration: Duration(seconds: 20),
+                          padding: EdgeInsets.all(20.0),
+                          colorBrightness: Brightness.light,
                       onPressed: () {
                         setState(() {
                           acceso = false;
