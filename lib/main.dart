@@ -94,6 +94,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                   ), //Fin Text Field
+                  new Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10.0),
+            ),
                   SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
