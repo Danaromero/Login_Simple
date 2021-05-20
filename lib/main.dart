@@ -83,7 +83,6 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ), //Fin de Columna
             if (!acceso)
-              
                 Column(children: <Widget>[
                   TextField(
                     decoration: InputDecoration(
@@ -93,8 +92,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ),
                   ), //Fin Text Field
                 ], //Fin Widget[]
-
-                    ) //Fin Columna
+              ), //Fin Columna
               
             else
              
