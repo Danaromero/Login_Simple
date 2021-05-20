@@ -49,7 +49,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             print('Menu button');
           },
         ),
-        title: Text('Ingreso al Sistema Romero'),
+        title: Text('Ingreso Romero'),
         actions: <Widget>[
           IconButton(
             icon: Icon(
