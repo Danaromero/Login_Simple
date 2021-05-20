@@ -148,11 +148,16 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               Center(
                 child: Column(
                   children: <Widget>[
-                    Text('Estas Conectado!'),
-                    style: TextStyle(
+                    Text(
+                "Estas Conectado",
+                style: TextStyle(
                color: Colors.black,
                 fontWeight: FontWeight.bold,
                 fontSize: 30),
+
+
+
+              )
                     RaisedButton(
                       elevation: 20.0,
                       child: Text('Cerrar Sesión'),
