@@ -91,17 +91,17 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       // fillColor: Colors.amber,
                       labelText: 'Ingresa Nombre Usuario',
                       icon: Icon(Icons.edit_rounded, color: Colors.indigo),
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                   ), //Fin Text Field
-                 
+
                   SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
                       labelText: 'Ingresa tu Contraseña',
                       icon: Icon(Icons.lock, color: Colors.indigo),
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
                     ),
                     obscureText: true,
                   ),
@@ -121,17 +121,17 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                             });
                           },
                         ), //Fin FlatButton
-                         new Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10.0),
-            ),
+                        new Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                        ),
                         RaisedButton(
                           child: Text(
                             'Siguiente',
                           ),
-                           color: Colors.greenAccent[200],
-                           splashColor: Colors.cyan,
+                          color: Colors.greenAccent[200],
+                          splashColor: Colors.cyan,
                           animationDuration: Duration(seconds: 20),
-                           padding: EdgeInsets.all(20.0),
+                          padding: EdgeInsets.all(20.0),
                           colorBrightness: Brightness.light,
                           onPressed: () {
                             setState(() {
@@ -149,15 +149,12 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 child: Column(
                   children: <Widget>[
                     Text(
-                "Estas Conectado",
-                style: TextStyle(
-               color: Colors.black,
-                fontWeight: FontWeight.bold,
-                fontSize: 30),
-
-
-
-              ),
+                      "Estas Conectado",
+                      style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
+                    ),
+                    new Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+            ),
                     RaisedButton(
                       elevation: 20.0,
                       child: Text('Cerrar Sesión'),
