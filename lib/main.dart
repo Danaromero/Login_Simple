@@ -128,7 +128,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ), //Fin de Niño Row
                   ) //Fin De Padding
                 ], //Fin Widget[]
-              ), //Fin Columna
+              ) //Fin Columna
               else 
                Center(
                 child: Column(
