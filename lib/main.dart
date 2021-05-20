@@ -53,7 +53,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         actions: <Widget>[
           IconButton(
             icon: Icon(
-              Icons.search,
+              Icons.bluetooth ,
               semanticLabel: 'search',
             ),
             onPressed: () {
@@ -62,7 +62,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
           ),
           IconButton(
             icon: Icon(
-              Icons.tune,
+              Icons.search,
               semanticLabel: 'filter',
             ),
             onPressed: () {
