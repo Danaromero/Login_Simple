@@ -95,7 +95,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ),
                   ), //Fin Text Field
                   new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
             ),
                   SizedBox(height: 12.0),
                   TextField(
