@@ -153,7 +153,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
                     ),
                     new Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
                     RaisedButton(
                       elevation: 20.0,
